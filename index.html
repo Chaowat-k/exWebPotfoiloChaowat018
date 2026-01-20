@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>6740011018 Chaowat Rakkhao</title>
+  </head>
+
+  <body class="bg-gray-50 font-sans text-gray-800">
+    <nav class="fixed top-0 z-50 w-full bg-white/90 backdrop-blur shadow">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <h1 class="text-lg font-semibold tracking-wide">Chaowat Rakkhao</h1>
+
+        <button id="menuBtn" class="md:hidden">
+          <svg class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+
+        <ul class="hidden space-x-8 text-sm md:flex">
+          <li><a href="#home" class="hover:text-blue-600 transition">Home</a></li>
+          <li><a href="Exercise/indexEx.html" class="hover:text-blue-600 transition">Exercise</a></li>
+          <li><a href="#about" class="hover:text-blue-600 transition">About</a></li>
+          <li><a href="#skills" class="hover:text-blue-600 transition">Skills</a></li>
+          <li><a href="#work" class="hover:text-blue-600 transition">Work</a></li>
+          <li><a href="#contact" class="hover:text-blue-600 transition">Contact</a></li>
+        </ul>
+      </div>
+
+      <ul id="mobileMenu" class="hidden flex-col space-y-4 border-t bg-white px-6 py-4 text-sm md:hidden">
+        <li><a href="#home">Home</a></li>
+        <li><a href="Exercise/indexEx.html">Exercise</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="h-24"></div>
+
+    <section id="home" class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 md:grid-cols-2">
+      <div class="text-center md:text-left">
+        <h2 class="mb-6 text-3xl font-bold leading-snug md:text-4xl">
+          Hi,<br />
+          I'm <span class="text-blue-600">Chaowat</span><br />
+          <span class="text-gray-600">Web Designer</span>
+        </h2>
+        <a href="#contact"
+          class="inline-block rounded-lg bg-blue-600 px-6 py-2 text-white shadow hover:bg-blue-700 transition">
+          Contact
+        </a>
+      </div>
+
+      <div class="flex justify-center">
+        <div class="rounded-full bg-blue-600/10 p-4">
+          <img src="Images/Chaowat(1).jpg"
+            class="h-44 w-44 rounded-full object-cover shadow md:h-56 md:w-56" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="mx-auto max-w-6xl px-6 py-20">
+      <div class="mb-12 text-center">
+        <h3 class="inline-block border-b-2 border-blue-600 pb-1 font-semibold text-blue-600">
+          About
+        </h3>
+      </div>
+
+      <div class="grid items-center gap-12 md:grid-cols-2">
+        <img src="Images/Chaowat(2).jpg"
+          class="mx-auto w-60 rounded-xl shadow md:w-72" />
+        <div>
+          <h4 class="mb-4 text-xl font-semibold">I'm Chaowat</h4>
+          <p class="leading-relaxed text-gray-600">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit
+            commodi modi omnis delectus.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="bg-white px-6 py-20">
+      <div class="mx-auto max-w-6xl">
+        <div class="mb-12 text-center">
+          <h3 class="inline-block border-b-2 border-blue-600 pb-1 font-semibold text-blue-600">
+            Skills
+          </h3>
+        </div>
+
+        <div class="grid items-center gap-12 md:grid-cols-2">
+          <div>
+            <div class="mb-5">
+              <div class="mb-1 flex justify-between text-sm">
+                <span>HTML</span><span>95%</span>
+              </div>
+              <div class="h-2 rounded bg-gray-200">
+                <div class="h-2 w-[95%] rounded bg-blue-600"></div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="mb-1 flex justify-between text-sm">
+                <span>CSS</span><span>85%</span>
+              </div>
+              <div class="h-2 rounded bg-gray-200">
+                <div class="h-2 w-[85%] rounded bg-blue-600"></div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="mb-1 flex justify-between text-sm">
+                <span>JavaScript</span><span>65%</span>
+              </div>
+              <div class="h-2 rounded bg-gray-200">
+                <div class="h-2 w-[65%] rounded bg-blue-600"></div>
+              </div>
+            </div>
+          </div>
+
+          <img src="Images/Skill(1).png"
+            class="mx-auto w-80 rounded-xl shadow" />
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="mx-auto max-w-6xl px-6 py-20">
+      <div class="mb-12 text-center">
+        <h3 class="inline-block border-b-2 border-blue-600 pb-1 font-semibold text-blue-600">
+          Work
+        </h3>
+      </div>
+
+      <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+        <img src="Images/Skill(2).png"
+          class="rounded-xl shadow hover:scale-105 transition" />
+        <img src="Images/Skill(2).png"
+          class="rounded-xl shadow hover:scale-105 transition" />
+        <img src="Images/Skill(2).png"
+          class="rounded-xl shadow hover:scale-105 transition" />
+      </div>
+    </section>
+
+    <section id="contact" class="bg-white px-6 py-20">
+      <div class="mb-12 text-center">
+        <h3 class="inline-block border-b-2 border-blue-600 pb-1 font-semibold text-blue-600">
+          Contact
+        </h3>
+      </div>
+
+      <form class="mx-auto max-w-md space-y-4">
+        <input type="text" placeholder="Name"
+          class="w-full rounded-lg border px-3 py-2 focus:border-blue-600 focus:outline-none" />
+        <input type="email" placeholder="Email"
+          class="w-full rounded-lg border px-3 py-2 focus:border-blue-600 focus:outline-none" />
+        <textarea placeholder="Message"
+          class="h-32 w-full rounded-lg border px-3 py-2 focus:border-blue-600 focus:outline-none"></textarea>
+        <button
+          class="rounded-lg bg-blue-600 px-6 py-2 text-white hover:bg-blue-700 transition">
+          Send
+        </button>
+      </form>
+    </section>
+
+    <footer class="bg-gray-900 py-6 text-center">
+      <p class="text-sm text-gray-400">Chaowat Rakkhao</p>
+    </footer>
+  </body>
+</html>
